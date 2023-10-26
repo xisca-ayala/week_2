@@ -1,4 +1,5 @@
 class Person {
+
     constructor(name, surname, yearOfBirth, weight, height, state, language, hobbies){
         this.name = name;
         this.surname = surname;
