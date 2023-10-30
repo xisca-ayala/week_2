@@ -1,6 +1,7 @@
 console.log(evenNumbers(15));
 console.log(myRevert([1,2,3,4,5]))
 isRainbow(['azul', 'rosa', 'negro', 'verde', 'amarillo']);
+console.log(add(['Pere', 'Maria', 'Andreu']));
 
 
 
@@ -42,4 +43,4 @@ function add(myWords: string[]): number{
     return result;
 }
 
-console.log(add(['Pere', 'Maria', 'Andreu']));
+
