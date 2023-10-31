@@ -35,7 +35,7 @@ function isRainbow(colors:string[]): void{
     });
 };
 
-function add(myWords: string[]): number{
+export function add(myWords: string[]): number{
     let result:number = 0;
     for(let word of myWords){
         result += word.length;

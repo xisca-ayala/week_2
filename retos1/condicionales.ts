@@ -54,7 +54,7 @@ return result
 }
 
 
-function isEven (number: number): string {
+export function isEven (number: number): string {
     let result = '';
     if(number%2 == 0){
         result = 'El numero es par';
