@@ -1,4 +1,3 @@
-
 console.log(hasEven([3,4,5]))
 console.log(startWithM(['Maria','Alba','Martina']))
 
@@ -13,7 +12,6 @@ function hasEven(myNum:number[]):boolean{
     }
     return boolean;
 }
-
 
 function startWithM(myNames:string[]): boolean{
     let i: number = 0;

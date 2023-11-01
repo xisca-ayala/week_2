@@ -2,8 +2,6 @@ console.log(zodiac(5,6));
 console.log(continent ('Japón'));
 console.log(isEven(4));
 
-
-
 function zodiac(day:number, month:number): string {
     let result: string = '';
     if((day>=21 && month == 3) || (day<=19 && month == 4)){
@@ -32,7 +30,6 @@ function zodiac(day:number, month:number): string {
     return result;
 }
 
-
 function continent (country: string): string {
     let result: string = '';
     if (country == 'España' || country == 'Italia' || country == 'Francia' || country == 'Regno Unido' || country == 'Alemania'){
@@ -52,7 +49,6 @@ function continent (country: string): string {
     }
 return result
 }
-
 
 export function isEven (number: number): string {
     let result = '';

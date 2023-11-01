@@ -3,9 +3,6 @@ console.log(myRevert([1,2,3,4,5]))
 isRainbow(['azul', 'rosa', 'negro', 'verde', 'amarillo']);
 console.log(add(['Pere', 'Maria', 'Andreu']));
 
-
-
-
 function evenNumbers(num:number): number[] {
     let evenNumbersArray: number[] = [];
     for(let i=0; i<=num; i++){
@@ -15,7 +12,6 @@ function evenNumbers(num:number): number[] {
     }
 return evenNumbersArray
 }
-
 
 function myRevert(myArr:number[]): number[] {
     let revertArray: number[] = [];
